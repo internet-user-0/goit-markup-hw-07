@@ -1,0 +1,81 @@
+/* header навигация контакты */
+.header{
+   border-bottom: 1px solid #ECECEC;
+}
+
+.header__container {
+   width: 1200px;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.header__container-mode--size {
+   display: flex;
+}
+
+// логотип в шапке
+.header__logo {
+   text-decoration: none;
+   color: var(--color-text);
+   font-family: var(--secondary-font-style);
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+
+   padding-top: 24px;
+   padding-bottom: 25px;
+   margin-right: 93px;
+}
+.header__span {
+   color: var(--color-text-btn);
+}
+
+
+.nav {
+}
+.list {
+}
+
+
+.nav__list {
+   display: flex;
+}
+
+
+.nav__item {
+   margin-right: 50px;
+
+   &:last-child{
+      margin-right: 0;
+   }
+}
+.nav__link {
+   position: relative;
+
+text-decoration: none;
+color: var(--color-text);
+
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;
+
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+   &:hover,
+   &:focus{
+      color: var(--color-text-btn);
+   }
+}
+.nav__link--mode-studio-underline {
+}

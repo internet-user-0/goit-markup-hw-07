@@ -21,6 +21,8 @@
     />
     <!-- стили -->
     <link rel="stylesheet" href="./css/styles.css" />
+    <!-- минифицированый вайл стилей -->
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Document</title>
   </head>
 
@@ -459,7 +461,7 @@
         <div class="footer-item-box">
           <form class="footer-form">
             <label class="footer-motivation" for="subsciption">Подпишитесь на рассылку</label>
-            <input type="text" name="mail" id="subsciption" placeholder="E-mail" />
+            <input class="footer-input" type="text" name="mail" id="subsciption" placeholder="E-mail" />
             <button type="submit" class="footer-form-btn">
               Подписаться
               <span class="btn-svg">
@@ -485,7 +487,7 @@
           <form class="modal-form">
             <ul class="modal-form-list">
               <li class="form-list-item">
-                <label for="name">Имя</label>
+                <label class="form-item-label" for="name">Имя</label>
                 <div class="form-list-element">
                   <input class="form-input" type="text" name="name" id="name" />
                   <svg class="form-item-svg">
@@ -494,7 +496,7 @@
                 </div>
               </li>
               <li class="form-list-item">
-                <label for="tel">Телефон</label>
+                <label class="form-item-label" for="tel">Телефон</label>
                 <div class="form-list-element">
                   <input class="form-input" type="tel" name="tel" id="tel" />
                   <svg class="form-item-svg">
@@ -503,7 +505,7 @@
                 </div>
               </li>
               <li class="form-list-item">
-                <label for="mail">Почта</label>
+                <label class="form-item-label" for="mail">Почта</label>
                 <div class="form-list-element">
                   <input class="form-input" type="email" name="mail" id="mail" />
                   <svg class="form-item-svg">
@@ -512,7 +514,7 @@
                 </div>
               </li>
               <li class="form-list-item">
-                <label for="coment">Комментарий</label>
+                <label class="form-item-label" for="coment">Комментарий</label>
                 <textarea
                   class="form-input"
                   name="coment"

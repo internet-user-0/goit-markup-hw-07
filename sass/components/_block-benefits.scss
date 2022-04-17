@@ -1,0 +1,57 @@
+// секция преимуществ блоки текста, и картинок
+
+.section {
+}
+.container {
+}
+.visually-hidden {
+}
+.list {
+}
+.list-details {
+   display: flex;
+}
+.details-item {
+   margin-right: 30px;
+
+   &:last-child {
+      margin-right: 0;
+   }
+}
+.icon-box {
+   width: 270px;
+   height: 120px;
+   background: #f5f4fa;
+   border-radius: 4px;
+   margin-bottom: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   &:last-child {
+      margin: 0;
+   }
+}
+.img-svg {
+   width: 70px;
+   height: 70px;
+}
+.details-item-element {
+   color: var(--color-text);
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 1.1;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+.details-item-part {
+   color: var(--color-text-two);
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+
+   margin-top: 10px;
+}

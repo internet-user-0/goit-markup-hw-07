@@ -1,42 +1,18 @@
 // панель ссылок на контакты в секции список учасников
 
-.personal-txt {
-   padding-top: 30px;
-   padding-bottom: 30px;
-}
-.personal-name {
-   color: var(--color-text);
-   font-style: normal;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.2;
-   letter-spacing: 0.03em;
-
-   margin-bottom: 10px;
-}
-.personal-profession {
-   color: var(--color-text-two);
-   font-style: normal;
-   font-weight: normal;
-   font-size: 16px;
-   line-height: 1.2;
-   letter-spacing: 0.03em;
-}
-.netvork-svg {
+.netvork-list {
    margin-top: 16px;
 
    display: flex;
    justify-content: center;
 }
-.icon-item {
-
-   &:not(:last-child){
+.netvork-list__item {
+   &:not(:last-child) {
       margin-right: 10px;
    }
 }
 
-
-.icon-link {
+.netvork-list__link {
    display: inline-flex;
    justify-content: center;
    align-items: center;
@@ -55,18 +31,16 @@
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
    &:hover,
-   &:focus{
+   &:focus {
       background-color: var(--background-btn-hover);
       fill: #ffffff;
    }
 }
-.icon-link:last-child{
+.netvork-list__link:last-child {
    margin-right: 0;
 }
 
-
-
-.icon-netvork {
+.netvork-list__svg {
    transition-property: fill;
    transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -75,7 +49,7 @@
    height: 20px;
 
    &:hover,
-   &:focus{
+   &:focus {
       fill: currentColor;
    }
 }

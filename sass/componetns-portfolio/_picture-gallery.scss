@@ -1,7 +1,4 @@
 // список картинок в портфолио
-
-.list {
-}
 .list-info {
    flex-wrap: wrap;
    display: flex;
@@ -45,8 +42,7 @@
    position: relative;
    overflow: hidden;
 }
-.info-item-img {
-}
+
 .info-other-side {
    position: absolute;
    display: inline-block;

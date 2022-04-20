@@ -14,11 +14,8 @@
    background-position: center;
    background-size: cover;
 }
-.container {
-}
-.heading-bg {
-}
-.basic-heading {
+
+.heading__title {
    color: #ffffff;
    font-style: normal;
    font-weight: 900;
@@ -27,7 +24,7 @@
    letter-spacing: 0.06em;
    text-transform: uppercase;
 }
-.basic-btn {
+.heading__btn {
    text-decoration: none;
    font-style: normal;
    font-weight: 700;

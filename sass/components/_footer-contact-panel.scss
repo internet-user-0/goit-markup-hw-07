@@ -1,12 +1,11 @@
-//  панель ссылок в подвале 
+//  панель ссылок в подвале
 
 .footer-item {
-
-   &:not(:first-child){
+   &:not(:first-child) {
       margin-left: 70px;
    }
 }
-.footer-motivation {
+.netvorks-panel__text {
    color: var(--color-text);
    font-style: normal;
    font-weight: bold;
@@ -15,21 +14,26 @@
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #ffffff;
- 
+
    margin-bottom: 20px;
 }
-.netvork-svg-minor {
+.netvork-panel {
    display: flex;
    justify-content: center;
 }
-.icon-item-minor {
 
-
-   &:not(:last-child){
+.netvork-panel__item {
+   &:not(:last-child) {
       margin-right: 10px;
    }
 }
-.icon-link-minor {
+
+.icon-item-minor {
+   &:not(:last-child) {
+      margin-right: 10px;
+   }
+}
+.netvork-panel__link {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -42,18 +46,18 @@
    background: rgba(255, 255, 255, 0.1);
    fill: #ffffff;
    color: #ffffff;
- 
+
    transition-property: background-color;
    transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
    &:hover,
-   &:focus{
+   &:focus {
       background-color: var(--background-btn-hover);
       fill: #ffffff;
    }
 }
-.icon-netvork-minor {
+.netvork-panel__icon {
    width: 20px;
    height: 20px;
 }

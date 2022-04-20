@@ -1,17 +1,17 @@
 // header список в хедере ниже
 
-.list {
-}
-.header__list {
+.contact {
    display: flex;
    margin-left: auto;
+
+   list-style: none;
 }
-.header__item {
+.contact__item {
    &:first-child {
       margin-right: 50px;
    }
 }
-.header__link {
+.contact__link {
    text-decoration: none;
    color: var(--color-text-link);
 
@@ -36,7 +36,7 @@
       color: var(--color-text-btn);
    }
 }
-.header__icon {
+.contact__icon {
    width: 16px;
    height: 16px;
    margin-right: 10px;

@@ -1,24 +1,16 @@
 // секция преимуществ блоки текста, и картинок
-
-.section {
-}
-.container {
-}
-.visually-hidden {
-}
-.list {
-}
-.list-details {
+.benefits__list {
    display: flex;
 }
-.details-item {
+.benefits-item {
+   display: block;
    margin-right: 30px;
 
    &:last-child {
       margin-right: 0;
    }
 }
-.icon-box {
+.benifits__box {
    width: 270px;
    height: 120px;
    background: #f5f4fa;
@@ -32,11 +24,11 @@
       margin: 0;
    }
 }
-.img-svg {
+.benifits__svg {
    width: 70px;
    height: 70px;
 }
-.details-item-element {
+.benefits__title {
    color: var(--color-text);
    font-style: normal;
    font-weight: bold;
@@ -45,7 +37,7 @@
    letter-spacing: 0.03em;
    text-transform: uppercase;
 }
-.details-item-part {
+.benefits__text {
    color: var(--color-text-two);
    font-style: normal;
    font-weight: normal;

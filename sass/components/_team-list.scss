@@ -1,13 +1,10 @@
 // список учасников
 
-.section {
-}
 .team {
    background-color: var(--background-btn);
 }
-.container {
-}
-.small-team {
+
+.team__title {
    color: var(--color-text);
    font-style: normal;
    font-weight: 700;
@@ -17,12 +14,11 @@
 
    text-align: center;
 }
-.list {
-}
-.list-team {
+
+.team-list {
    display: flex;
 }
-.personal-info-item {
+.team-list__item {
    text-align: center;
 
    margin-right: 30px;
@@ -35,6 +31,4 @@
    &:last-child {
       margin-right: 0;
    }
-}
-.personal-image {
 }

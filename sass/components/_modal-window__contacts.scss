@@ -1,12 +1,12 @@
 // список контактной информации ползователя
 
-.modal-container {
+.box-window {
    padding: 40px;
    display: flex;
    flex-direction: column;
    justify-content: center;
 }
-.modal-txt {
+.box-window__title {
    display: block;
    font-style: normal;
    font-weight: 700;
@@ -18,16 +18,15 @@
 
    margin-bottom: 12px;
 }
-.modal-form {
+.modal-window__form {
    display: flex;
    flex-direction: column;
 }
-.modal-form-list {
+.modal-list {
    margin-bottom: 20px;
 }
-.form-list-item {
-}
-.form-item-label {
+
+.modal-list__label {
    font-style: normal;
    font-weight: 400;
    font-size: 12px;
@@ -41,10 +40,10 @@
       margin-bottom: 10px;
    }
 }
-.form-list-element {
+.modal-list__element {
    position: relative;
 }
-.form-input {
+.modal-list__input {
    text-decoration: none;
    display: block;
 
@@ -63,19 +62,19 @@
    transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-   &:focus + .form-item-svg,
-   &:hover + .form-item-svg {
+   &:focus + .modal-list__icon,
+   &:hover + .modal-list__icon {
       fill: var(--background-btn-hover);
    }
 }
-.form-input:focus-visible {
+.modal-list__input:focus-visible {
    outline: 0px solid;
 }
-.form-input:focus,
-.form-input:hover {
+.modal-list__input:focus,
+.modal-list__input:hover {
    border: 1px solid #2196f3;
 }
-.form-item-svg {
+.modal-list__icon {
    position: absolute;
    top: 11px;
    left: 12px;
@@ -92,7 +91,7 @@
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-list-item {
+.modal-list__item {
    & textarea {
       display: block;
 
@@ -117,7 +116,7 @@
       border-radius: 4px;
    }
 
-   & textarea::placeholder{
+   & textarea::placeholder {
       font-style: normal;
       font-weight: 400;
       font-size: 12px;

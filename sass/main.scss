@@ -22,7 +22,10 @@
 @import "./components/picture-list";
 
 // список учасников
-@import "./components/hero-list";
+@import "./components/team-list";
+
+// текст под картинкой члена команды
+@import "./components/team-text";
 
 // контактная панель в списке учасников
 @import "./components/contact-panel";
